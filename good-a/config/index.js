@@ -15,19 +15,10 @@ module.exports = {
             target : "http://las.secoo.com",
             changeOrigin : true
         },
-        "/appservice" : {
-            target : "http://android.secoo.com",
+        "/recommend?upk=&productId=27599681&size=2&c_platform_type=0&type=similar&count=12&platformType=2&categoryId=1734&brandId=12&_=1521020792634&callback=jsonp6" : {
+            target : "https://lr.secooimg.com",
             changeOrigin : true
-        },
-        "/appservice" : {
-            target : "http://android.secoo.com",
-            changeOrigin : true
-        },
-        "/apm" : {
-            target : "http://localhost:3000/",
-            changeOrigin : true
-        },
-
+        }
 
     },
 
